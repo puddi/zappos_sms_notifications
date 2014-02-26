@@ -1,0 +1,202 @@
+/* general */
+body {
+	font-family: 'Open Sans', 'Verdana', 'Helvetica', sans-serif;
+	text-align: center;
+	background-color: #EEE;
+}
+
+.content {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.clear {
+	clear:both;
+}
+
+/* input fields */
+::-webkit-input-placeholder {
+	font-family: 'Open Sans', 'Verdana', 'Helvetica', sans-serif;
+}
+
+::-moz-placeholder {
+	font-family: 'Open Sans', 'Verdana', 'Helvetica', sans-serif;
+}
+
+:-ms-input-placeholder {
+	font-family: 'Open Sans', 'Verdana', 'Helvetica', sans-serif;
+}
+
+.numberField, .passwordField, .codeField, .searchField {
+	font-size: 20px;
+	line-height: 20px;
+}
+
+.numberField, .passwordField {
+	width: 180px;
+}
+
+.codeField {
+	width: 100px;
+}
+
+.searchField {
+	width: 300px;
+}
+
+.loginForm input, .deactivateForm input {
+	font-size: 15px;
+	line-height: 15px;
+	width: 100%;
+}
+
+/* nav */
+ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+.nav li {
+	display: inline-block;
+	padding: 5px;
+	margin: 2px;
+	float: right;
+}
+
+.navLi, .submitLogin, .submitDeactivate {
+	background-color: grey;
+	padding: 10px;
+	text-decoration: none;
+	color: #EEEEEE;
+}
+
+.loginForm, .deactivateForm {
+	clear:both;
+	float:right;
+	width: 170px;
+	text-align: center;
+	margin-right: 6.25px;
+	margin-top: 10px;
+	display: none;
+}
+
+
+/* carrier fields */
+.carrierField li {
+	display: inline-block;
+	padding: 5px;
+	margin: 2px;
+	background-color: #F2F2F2;
+}
+
+.carrierField li.selected, .carrierField li:hover {
+	background-color: grey;
+	color: #F2F2F2;
+}
+
+.carrierField li a {
+	color: black;
+	text-decoration: none;
+}
+
+.carrierField li.selected a, .carrierField li:hover a {
+	color: white;
+}
+
+/* generic buttons */
+
+.submit, .deleteNotification, .searchButton, .addNotification {
+	display: inline-block;
+	background-color: grey;
+	text-decoration: none;
+	color: #F2F2F2;
+	padding: 6px;
+}
+
+.submit {
+	width: 75px;
+	font-size: 20px;
+	padding: 10px;
+}
+
+.deleteNotification, .searchButton {
+	width: 50px;
+	float: right;
+}
+
+.searchButton {
+	padding: 6px 12px;
+}
+
+
+/* notifications and search */
+.notification, .searchArea {
+	width: 50%;
+	margin: 0 auto;	
+	clear: both;
+}
+
+.notification span {
+	float: left;
+	padding-top: 6px;
+}
+
+.searchP {
+	display: inline-block;
+	float: right;
+	margin-right: -6px; // since we set the padding to 12px
+}
+
+.searchField {
+	float: left;
+	margin: 1em 0;
+}
+
+/* results */
+
+.result .left {
+	float: left;
+	width: 50%;
+	text-align: center;
+}
+
+.result .right {
+	float: right;
+	text-align: left;
+	width: 50%;
+}
+
+.result .right h2, .result .right h4 {
+	margin: 0;
+}
+
+.searchResults {
+	width: 50%;
+	margin: 0 auto;
+}
+
+.result .left img {
+	max-width: 90%;
+	border: 2px solid black;
+}
+
+.normalPrice {
+	margin-bottom: 0;
+}
+
+.currentPrice {
+	margin-top: 0;
+}
+
+.indexes a {
+	text-decoration: none;
+	padding: 4px;
+	color: black;
+}
+
+.indexes strong, .indexes a:hover {
+	background-color: grey;
+	color: #F2F2F2;
+	padding: 4px;
+}
