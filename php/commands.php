@@ -303,5 +303,7 @@
 			}
 		}
 		print_r($results);
+		
 	}
+	$db = null;
 ?>
